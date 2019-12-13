@@ -1,16 +1,16 @@
 body{
-    margin-left: 20px;
+    margin: 0;
 }
 
 .titulo-index{
-    color: blue;
+    color: red;
     font-size: 30pt;
 }
 
 .listagem{
     text-decoration: none;
     font-size: 15pt;
-    color: rgba(50, 43, 148, 0.36);
+    color: rgba(148, 94, 43, 0.479);
 }
 
 form{
@@ -31,7 +31,7 @@ label{
 
 #botao{
     width: 20%;
-    background-color: rgba(50, 43, 148, 0.36);
+    background-color: rgb(148, 90, 43);
     font-weight: bold;
 }
 
@@ -50,4 +50,19 @@ input{
 .imagem{
     width: 22%;
     margin: 20px 20px 20px 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 100%;
+    background: orange
+
+}
+
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
 }
