@@ -31,3 +31,4 @@ def deletar(request):
         item.save()
         return redirect('aluno/listar')
         return render(request, 'lista.html')
+

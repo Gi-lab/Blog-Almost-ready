@@ -3,7 +3,7 @@ body{
 }
 
 .titulo-index{
-    color: red;
+    color:chocolate;
     font-size: 30pt;
 }
 
@@ -56,13 +56,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 40px;
+    height: 50px;
     width: 100%;
-    background: orange
+    background: black
 
 }
 
 nav a{
     text-decoration: none;
-    color: whitesmoke;
-}
+    color: whitesmoke
